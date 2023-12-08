@@ -211,3 +211,9 @@ body[theme="night"] .search-text {
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow: auto;
+  }
+}
