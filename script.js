@@ -1,254 +1,250 @@
 const countries = {
-  Andorra: "AD",
-  "United Arab Emirates": "AE",
   Afghanistan: "AF",
-  "Antigua and Barbuda": "AG",
-  Anguilla: "AI",
   Albania: "AL",
-  Armenia: "AM",
-  "Netherlands Antilles": "AN",
-  Angola: "AO",
-  Antarctica: "AQ",
-  Argentina: "AR",
+  Algeria: "DZ",
   "American Samoa": "AS",
-  Austria: "AT",
-  Australia: "AU",
+  Andorra: "AD",
+  Angola: "AO",
+  Anguilla: "AI",
+  Antarctica: "AQ",
+  "Antigua and Barbuda": "AG",
+  Argentina: "AR",
+  Armenia: "AM",
   Aruba: "AW",
-  "Åland Islands": "AX",
+  Australia: "AU",
+  Austria: "AT",
   Azerbaijan: "AZ",
-  "Bosnia and Herzegovina": "BA",
-  Barbados: "BB",
-  Bangladesh: "BD",
-  Belgium: "BE",
-  "Burkina Faso": "BF",
-  Bulgaria: "BG",
+  Bahamas: "BS",
   Bahrain: "BH",
-  Burundi: "BI",
+  Bangladesh: "BD",
+  Barbados: "BB",
+  Belarus: "BY",
+  Belgium: "BE",
+  Belize: "BZ",
   Benin: "BJ",
-  "Saint Barthélemy": "BL",
   Bermuda: "BM",
-  "Brunei Darussalam": "BN",
+  Bhutan: "BT",
   Bolivia: "BO",
   "Bonaire, Sint Eustatius and Saba": "BQ",
-  Brazil: "BR",
-  Bahamas: "BS",
-  Bhutan: "BT",
-  "Bouvet Island": "BV",
+  "Bosnia and Herzegovina": "BA",
   Botswana: "BW",
-  Belarus: "BY",
-  Belize: "BZ",
-  Canada: "CA",
-  "Cocos (Keeling) Islands": "CC",
-  "Congo, The Democratic Republic Of The": "CD",
-  "Central African Republic": "CF",
-  Congo: "CG",
-  Switzerland: "CH",
-  "Côte D'Ivoire": "CI",
-  "Cook Islands": "CK",
-  Chile: "CL",
+  "Bouvet Island": "BV",
+  Brazil: "BR",
+  "British Indian Ocean Territory": "IO",
+  "Brunei Darussalam": "BN",
+  Bulgaria: "BG",
+  "Burkina Faso": "BF",
+  Burundi: "BI",
+  "Cabo Verde": "CV",
+  Cambodia: "KH",
   Cameroon: "CM",
+  Canada: "CA",
+  "Cayman Islands": "KY",
+  "Central African Republic": "CF",
+  Chad: "TD",
+  Chile: "CL",
   China: "CN",
-  Colombia: "CO",
-  "Costa Rica": "CR",
-  Cuba: "CU",
-  "Cape Verde": "CV",
-  Curaçao: "CW",
   "Christmas Island": "CX",
+  Cocos: "CC",
+  Colombia: "CO",
+  Comoros: "KM",
+  Congo: "CG",
+  "Cook Islands": "CK",
+  "Costa Rica": "CR",
+  Croatia: "HR",
+  Cuba: "CU",
+  Curaçao: "CW",
   Cyprus: "CY",
-  "Czech Republic": "CZ",
-  Germany: "DE",
-  Djibouti: "DJ",
+  Czechia: "CZ",
+  "Côte d'Ivoire": "CI",
   Denmark: "DK",
+  Djibouti: "DJ",
   Dominica: "DM",
   "Dominican Republic": "DO",
-  Algeria: "DZ",
   Ecuador: "EC",
-  Estonia: "EE",
   Egypt: "EG",
-  "Western Sahara": "EH",
+  "El Salvador": "SV",
+  "Equatorial Guinea": "GQ",
   Eritrea: "ER",
-  Spain: "ES",
+  Estonia: "EE",
+  Eswatini: "SZ",
   Ethiopia: "ET",
-  Finland: "FI",
-  Fiji: "FJ",
-  "Falkland Islands (Malvinas)": "FK",
-  "Micronesia, Federated States Of": "FM",
+  "Falkland Islands": "FK",
   "Faroe Islands": "FO",
+  Fiji: "FJ",
+  Finland: "FI",
   France: "FR",
-  Gabon: "GA",
-  "United Kingdom": "GB",
-  Grenada: "GD",
-  Georgia: "GE",
   "French Guiana": "GF",
-  Guernsey: "GG",
+  "French Polynesia": "PF",
+  "French Southern Territories": "TF",
+  Gabon: "GA",
+  Gambia: "GM",
+  Georgia: "GE",
+  Germany: "DE",
   Ghana: "GH",
   Gibraltar: "GI",
-  Greenland: "GL",
-  Gambia: "GM",
-  Guinea: "GN",
-  Guadeloupe: "GP",
-  "Equatorial Guinea": "GQ",
   Greece: "GR",
-  "South Georgia and the South Sandwich Islands": "GS",
-  Guatemala: "GT",
+  Greenland: "GL",
+  Grenada: "GD",
+  Guadeloupe: "GP",
   Guam: "GU",
+  Guatemala: "GT",
+  Guernsey: "GG",
+  Guinea: "GN",
   "Guinea-Bissau": "GW",
   Guyana: "GY",
-  "Hong Kong": "HK",
-  "Heard and McDonald Islands": "HM",
-  Honduras: "HN",
-  Croatia: "HR",
   Haiti: "HT",
+  "Heard Island and McDonald Islands": "HM",
+  "Holy See": "VA",
+  Honduras: "HN",
+  "Hong Kong": "HK",
   Hungary: "HU",
-  Indonesia: "ID",
-  Ireland: "IE",
-  Israel: "IL",
-  "Isle of Man": "IM",
-  India: "IN",
-  "British Indian Ocean Territory": "IO",
-  Iraq: "IQ",
-  "Iran, Islamic Republic Of": "IR",
   Iceland: "IS",
+  India: "IN",
+  Indonesia: "ID",
+  Iran: "IR",
+  Iraq: "IQ",
+  Ireland: "IE",
+  "Isle of Man": "IM",
+  Israel: "IL",
   Italy: "IT",
-  Jersey: "JE",
   Jamaica: "JM",
-  Jordan: "JO",
   Japan: "JP",
-  Kenya: "KE",
-  Kyrgyzstan: "KG",
-  Cambodia: "KH",
-  Kiribati: "KI",
-  Comoros: "KM",
-  "Saint Kitts And Nevis": "KN",
-  "Korea, Democratic People's Republic Of": "KP",
-  "Korea, Republic of": "KR",
-  Kuwait: "KW",
-  "Cayman Islands": "KY",
+  Jersey: "JE",
+  Jordan: "JO",
   Kazakhstan: "KZ",
+  Kenya: "KE",
+  Kiribati: "KI",
+  Korea: "KR",
+  Kuwait: "KW",
+  Kyrgyzstan: "KG",
   "Lao People's Democratic Republic": "LA",
+  Latvia: "LV",
   Lebanon: "LB",
-  "Saint Lucia": "LC",
-  Liechtenstein: "LI",
-  "Sri Lanka": "LK",
-  Liberia: "LR",
   Lesotho: "LS",
+  Liberia: "LR",
+  Libya: "LY",
+  Liechtenstein: "LI",
   Lithuania: "LT",
   Luxembourg: "LU",
-  Latvia: "LV",
-  Libya: "LY",
-  Morocco: "MA",
-  Monaco: "MC",
-  "Moldova, Republic of": "MD",
-  Montenegro: "ME",
-  "Saint Martin": "MF",
-  Madagascar: "MG",
-  "Marshall Islands": "MH",
-  "Macedonia, the Former Yugoslav Republic Of": "MK",
-  Mali: "ML",
-  Myanmar: "MM",
-  Mongolia: "MN",
   Macao: "MO",
-  "Northern Mariana Islands": "MP",
+  Madagascar: "MG",
+  Malawi: "MW",
+  Malaysia: "MY",
+  Maldives: "MV",
+  Mali: "ML",
+  Malta: "MT",
+  "Marshall Islands": "MH",
   Martinique: "MQ",
   Mauritania: "MR",
-  Montserrat: "MS",
-  Malta: "MT",
   Mauritius: "MU",
-  Maldives: "MV",
-  Malawi: "MW",
+  Mayotte: "YT",
   Mexico: "MX",
-  Malaysia: "MY",
+  Micronesia: "FM",
+  Moldova: "MD",
+  Monaco: "MC",
+  Mongolia: "MN",
+  Montenegro: "ME",
+  Montserrat: "MS",
+  Morocco: "MA",
   Mozambique: "MZ",
+  Myanmar: "MM",
   Namibia: "NA",
-  "New Caledonia": "NC",
-  Niger: "NE",
-  "Norfolk Island": "NF",
-  Nigeria: "NG",
-  Nicaragua: "NI",
-  Netherlands: "NL",
-  Norway: "NO",
-  Nepal: "NP",
   Nauru: "NR",
-  Niue: "NU",
+  Nepal: "NP",
+  Netherlands: "NL",
+  "New Caledonia": "NC",
   "New Zealand": "NZ",
+  Nicaragua: "NI",
+  Niger: "NE",
+  Nigeria: "NG",
+  Niue: "NU",
+  "Norfolk Island": "NF",
+  "Northern Mariana Islands": "MP",
+  Norway: "NO",
   Oman: "OM",
-  Panama: "PA",
-  Peru: "PE",
-  "French Polynesia": "PF",
-  "Papua New Guinea": "PG",
-  Philippines: "PH",
   Pakistan: "PK",
-  Poland: "PL",
-  "Saint Pierre And Miquelon": "PM",
-  Pitcairn: "PN",
-  "Puerto Rico": "PR",
-  "Palestine, State of": "PS",
-  Portugal: "PT",
   Palau: "PW",
+  "Palestine, State of": "PS",
+  Panama: "PA",
+  "Papua New Guinea": "PG",
   Paraguay: "PY",
+  Peru: "PE",
+  Philippines: "PH",
+  Pitcairn: "PN",
+  Poland: "PL",
+  Portugal: "PT",
+  "Puerto Rico": "PR",
   Qatar: "QA",
-  Réunion: "RE",
+  "Republic of North Macedonia": "MK",
   Romania: "RO",
-  Serbia: "RS",
-  "Russian Federation": "RU",
+  Russia: "RU",
   Rwanda: "RW",
-  "Saudi Arabia": "SA",
-  "Solomon Islands": "SB",
-  Seychelles: "SC",
-  Sudan: "SD",
-  Sweden: "SE",
-  Singapore: "SG",
-  "Saint Helena": "SH",
-  Slovenia: "SI",
-  "Svalbard And Jan Mayen": "SJ",
-  Slovakia: "SK",
-  "Sierra Leone": "SL",
+  Réunion: "RE",
+  "Saint Barthélemy": "BL",
+  "Saint Helena, Ascension and Tristan da Cunha": "SH",
+  "Saint Kitts and Nevis": "KN",
+  "Saint Lucia": "LC",
+  "Saint Martin": "MF",
+  "Saint Pierre and Miquelon": "PM",
+  "Saint Vincent and the Grenadines": "VC",
+  Samoa: "WS",
   "San Marino": "SM",
-  Senegal: "SN",
-  Somalia: "SO",
-  Suriname: "SR",
-  "South Sudan": "SS",
   "Sao Tome and Principe": "ST",
-  "El Salvador": "SV",
+  "Saudi Arabia": "SA",
+  Senegal: "SN",
+  Serbia: "RS",
+  Seychelles: "SC",
+  "Sierra Leone": "SL",
+  Singapore: "SG",
   "Sint Maarten": "SX",
+  Slovakia: "SK",
+  Slovenia: "SI",
+  "Solomon Islands": "SB",
+  Somalia: "SO",
+  "South Africa": "ZA",
+  "South Georgia and the South Sandwich Islands": "GS",
+  "South Sudan": "SS",
+  Spain: "ES",
+  "Sri Lanka": "LK",
+  Sudan: "SD",
+  Suriname: "SR",
+  "Svalbard and Jan Mayen": "SJ",
+  Sweden: "SE",
+  Switzerland: "CH",
   "Syrian Arab Republic": "SY",
-  Swaziland: "SZ",
-  "Turks and Caicos Islands": "TC",
-  Chad: "TD",
-  "French Southern Territories": "TF",
-  Togo: "TG",
-  Thailand: "TH",
+  Taiwan: "TW",
   Tajikistan: "TJ",
-  Tokelau: "TK",
-  "Timor-Leste": "TL",
-  Turkmenistan: "TM",
-  Tunisia: "TN",
-  Tonga: "TO",
-  Turkey: "TR",
-  "Trinidad and Tobago": "TT",
-  Tuvalu: "TV",
-  "Taiwan, Republic Of China": "TW",
   "Tanzania, United Republic of": "TZ",
-  Ukraine: "UA",
+  Thailand: "TH",
+  "Timor-Leste": "TL",
+  Togo: "TG",
+  Tokelau: "TK",
+  Tonga: "TO",
+  "Trinidad and Tobago": "TT",
+  Tunisia: "TN",
+  Turkey: "TR",
+  Turkmenistan: "TM",
+  "Turks and Caicos Islands": "TC",
+  Tuvalu: "TV",
   Uganda: "UG",
+  Ukraine: "UA",
+  "United Arab Emirates": "AE",
+  "United Kingdom of Great Britain and Northern Ireland": "GB",
   "United States Minor Outlying Islands": "UM",
-  "United States": "US",
+  "United States of America": "US",
   Uruguay: "UY",
   Uzbekistan: "UZ",
-  "Holy See (Vatican City State)": "VA",
-  "Saint Vincent And The Grenadines": "VC",
-  "Venezuela, Bolivarian Republic of": "VE",
-  "Virgin Islands, British": "VG",
-  "Virgin Islands, U.S.": "VI",
-  Vietnam: "VN",
   Vanuatu: "VU",
+  Venezuela: "VE",
+  "Viet Nam": "VN",
+  "Virgin Islands": "VI",
   "Wallis and Futuna": "WF",
-  Samoa: "WS",
+  "Western Sahara": "EH",
   Yemen: "YE",
-  Mayotte: "YT",
-  "South Africa": "ZA",
   Zambia: "ZM",
   Zimbabwe: "ZW",
+  "Åland Islands": "AX",
 };
 
 const backgroundImgs = {
@@ -260,19 +256,17 @@ const backgroundImgs = {
 };
 
 async function fetchUserIP() {
-  try {
-    const response = await fetch("https://geolocation-db.com/json/", {
-      mode: "cors",
-    });
-
-    if (!response.ok) throw new Error("Couldn't retrieve user's IP");
-
-    const locationData = await response.json();
-    return locationData.IPv4;
-  } catch (err) {
-    console.error(err);
-    return "178.238.11.6";
-  }
+  return new Promise((resolve, reject) => {
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        const locationString = `${pos.coords.latitude} ${pos.coords.longitude}`;
+        resolve(locationString);
+      },
+      (error) => {
+        resolve("New York");
+      }
+    );
+  });
 }
 
 async function fetchWeatherData(ip) {
@@ -282,6 +276,9 @@ async function fetchWeatherData(ip) {
   );
 
   const weatherData = await response.json();
+
+  if (weatherData.hasOwnProperty("error")) return weatherData;
+
   const {
     location: { name, country, localtime },
     current: {
@@ -297,9 +294,17 @@ async function fetchWeatherData(ip) {
   };
 }
 
-async function getWeather() {
-  const userIP = await fetchUserIP();
+async function getWeather(location) {
+  let userIP;
+  if (location === "auto") {
+    userIP = await fetchUserIP();
+  } else {
+    userIP = location;
+  }
   const weatherData = await fetchWeatherData(userIP);
+  if (weatherData.hasOwnProperty("error")) {
+    throw new Error(weatherData.error.message);
+  }
   return weatherData;
 }
 
@@ -338,10 +343,15 @@ function displayData(weatherData) {
   const temperatureText = document.querySelector(".temperature-text");
   const windText = document.querySelector(".wind-text");
   const humidityText = document.querySelector(".humidity-text");
+  if (countries.hasOwnProperty(weatherData.location.country)) {
+    countryFlag.src = `https://flagsapi.com/${
+      countries[weatherData.location.country]
+    }/shiny/64.png`;
+  } else {
+    countryFlag.src =
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALoAAAC8CAMAAAD4iUTeAAAAMFBMVEXFxcWOjo61tbWSkpKjo6PCwsK/v7+5ubmTk5OampqmpqaysrKXl5e9vb2vr6+YmJjwQAS0AAACY0lEQVR4nO3bwXaCQAyFYQQGFBXf/22r9pwWnRsZXJhM+39rF1dOmExi2zQAAAAAAAAAAAAAAAAA/q50Htv5qh3PyTtLuTT3l2631B2mNv4XSPNlp3X96B3uleFg5P62n6I++9S/DH53GLxTKsf14DeTd87cVJb8WvStd9QnBcXyWzXeYZfSaUPyUNlTtx73wSnMUfP6TIycfd6cPErNpDeS73ZH79g328vlpgtQMu+Uy03vHbxptp4uP87eyUcj2H46jsMwtpN55LtfCXQbXV6zrGvZ3i/0N1kvT8fHoIvKuWJkvWRDhc7uXDHqZJzzj8lvePp83KXSGpYv66fDPhjKHrrx2D+d9kGb5+n0J9W47TrtiVZqvHxqinLdEYgj2/ikGl1dR738gLGOjbOILt+KT8kPDvMiHi16HsfsM/GjW3FUwbjW+tQ/sy4m6jUNvYX8pa6PAQalAmqANZpXNKojxdgKrJFbA/cxqYjcGoRcWD+Ta+Aq6kUPpyGWSCv0jsl5Riox7GVy76G6gBhG7gIsv1ZYv9OEL5dkrVIjLEtfMlZH1+TRj3RrHVlx8ii/xpjM5OG7qFou3cU/FY1GVEH7N3bqXfweapTLIfoL2lgPvYrZQvaiaH+SIamlSyWrC/Vbah3JValXUS2Nmosu3pFK5f2oknIRW9Tw95YfWXTXdfQWeS+tpl7y+653omL5FsA7UbHsZ4BK1tGNaKbufz9SLCuY8FuXhfTIOw4ARDC0Ge9IpcQ+wDtSKaJ7ILoHonsgugeieyC6B6J7ILoH8e8w3pEAAAAAAAAAAAAAAADwP3wBec4P4WaLqSkAAAAASUVORK5CYII=";
+  }
 
-  countryFlag.src = `https://flagsapi.com/${
-    countries[weatherData.location.country]
-  }/shiny/64.png`;
   locationText.innerText = weatherData.location.name;
   conditionIcon.src = weatherData.current.condition.icon;
   conditionText.innerText = weatherData.current.condition.text;
@@ -352,6 +362,30 @@ function displayData(weatherData) {
   toggleLoading();
 }
 
-getWeather().then((weatherData) => {
-  displayData(weatherData);
+window.onload = () => {
+  getWeather("auto").then((weatherData) => {
+    displayData(weatherData);
+  });
+};
+
+let searching = false;
+
+document.querySelector(".search-button").addEventListener("click", (e) => {
+  if (searching || document.querySelector(".search-text").value === "") return;
+
+  toggleLoading();
+  searching = true;
+  const target = document.querySelector(".search-text").value;
+  getWeather(target)
+    .then((weatherData) => {
+      console.log(weatherData);
+      displayData(weatherData);
+    })
+    .catch((error) => {
+      document.querySelector(".search-text").value = "";
+      document.querySelector(".search-text").placeholder = error;
+      toggleLoading();
+    });
+
+  searching = false;
 });
