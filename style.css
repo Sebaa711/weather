@@ -148,14 +148,14 @@ body[theme="morning"] .weather-container {
 }
 
 .search-bar .search-text {
-  flex-grow: 1;
+  flex-grow: 6;
   background-color: transparent;
   border: none;
   font-size: 24px;
 }
 
 .search-bar .search-button {
-  width: 10%;
+  flex-grow: 1;
   height: 100%;
   display: flex;
   align-items: center;
