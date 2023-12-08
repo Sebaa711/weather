@@ -295,12 +295,12 @@ async function fetchWeatherData(ip) {
 }
 
 function hideKeyboard(element) {
-  element.attr("readonly", "readonly");
-  element.attr("disabled", "true");
+  element.setAttribute("readonly", "readonly");
+  element.setAttribute("disabled", "true");
   setTimeout(function () {
     element.blur();
-    element.removeAttr("readonly");
-    element.removeAttr("disabled");
+    element.toggleAttribute("readonly");
+    element.toggleAttribute("disabled");
   }, 100);
 }
 
