@@ -5,13 +5,12 @@
 }
 
 body {
-  overflow: hidden;
+  overflow: auto;
   background-color: #c2c2c2;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -164,8 +163,8 @@ body[theme="morning"] .weather-container {
 }
 
 .search-button svg {
-  width: 30px;
-  height: 30px;
+  width: 50%;
+  height: 50%;
 }
 
 body[theme="night"] .weather-container {
@@ -209,11 +208,5 @@ body[theme="night"] .search-text {
   }
   100% {
     transform: rotate(360deg);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    overflow: auto;
   }
 }
