@@ -163,8 +163,8 @@ body[theme="morning"] .weather-container {
 }
 
 .search-button svg {
-  width: 50%;
-  height: 50%;
+  width: 80%;
+  height: 80%;
 }
 
 body[theme="night"] .weather-container {
