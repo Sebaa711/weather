@@ -389,3 +389,12 @@ document.querySelector(".search-button").addEventListener("click", (e) => {
 
   searching = false;
 });
+
+document
+  .querySelector(".search-text")
+  .addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      document.querySelector(".search-button").click();
+    }
+  });
