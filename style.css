@@ -148,20 +148,10 @@ body[theme="morning"] .weather-container {
 }
 
 .search-bar .search-text {
-  flex-grow: 6;
+  flex-grow: 1;
   background-color: transparent;
   border: none;
   font-size: 24px;
-}
-
-.search-bar .search-button {
-  flex-grow: 1;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  min-width: 20%;
-  justify-content: center;
-  background-color: #b1b1b1;
 }
 
 .search-button svg {

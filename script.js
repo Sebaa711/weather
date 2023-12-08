@@ -370,31 +370,28 @@ window.onload = () => {
 
 let searching = false;
 
-document.querySelector(".search-button").addEventListener("click", (e) => {
-  if (searching || document.querySelector(".search-text").value === "") return;
-
-  toggleLoading();
-  searching = true;
-  const target = document.querySelector(".search-text").value;
-  getWeather(target)
-    .then((weatherData) => {
-      console.log(weatherData);
-      displayData(weatherData);
-    })
-    .catch((error) => {
-      document.querySelector(".search-text").value = "";
-      document.querySelector(".search-text").placeholder = error;
-      toggleLoading();
-    });
-
-  searching = false;
-});
-
 document
   .querySelector(".search-text")
   .addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
       event.preventDefault();
-      document.querySelector(".search-button").click();
+      if (searching || document.querySelector(".search-text").value === "")
+        return;
+
+      toggleLoading();
+      searching = true;
+      const target = document.querySelector(".search-text").value;
+      getWeather(target)
+        .then((weatherData) => {
+          console.log(weatherData);
+          displayData(weatherData);
+        })
+        .catch((error) => {
+          document.querySelector(".search-text").value = "";
+          document.querySelector(".search-text").placeholder = error;
+          toggleLoading();
+        });
+
+      searching = false;
     }
   });
