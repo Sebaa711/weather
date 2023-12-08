@@ -294,6 +294,16 @@ async function fetchWeatherData(ip) {
   };
 }
 
+function hideKeyboard(element) {
+  element.attr("readonly", "readonly");
+  element.attr("disabled", "true");
+  setTimeout(function () {
+    element.blur();
+    element.removeAttr("readonly");
+    element.removeAttr("disabled");
+  }, 100);
+}
+
 async function getWeather(location) {
   let userIP;
   if (location === "auto") {
@@ -375,6 +385,8 @@ document
   .addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
       event.preventDefault();
+      hideKeyboard(event.target);
+
       if (searching || document.querySelector(".search-text").value === "")
         return;
 
